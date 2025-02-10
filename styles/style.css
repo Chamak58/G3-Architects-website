@@ -205,7 +205,10 @@
     font-size: 0.75rem;
     opacity: 0.80;
   }
-  
+  .sponsors{
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
   .sponsors-heading{
     text-align: center;
   }
@@ -226,6 +229,17 @@
   .sponsors-card a img{
     width: 120px;
     filter: grayscale(100%);
+  }
+  .footer{
+    background: antiquewhite;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+  }
+  .footer-description{
+    font-size: 0.75rem;
+    opacity: 0.80;
+    text-align: center;
   }
 
 
@@ -405,6 +419,13 @@
         width: 80px;
         filter: grayscale(100%);
       }
+      .footer{
+        padding: 5px;
+        margin-bottom: 20px;
+      }
+      .footer-description{
+        font-size: 0.55rem;
+      }
             
   }
 
@@ -569,6 +590,13 @@
       .sponsors-card a img{
         width: 100px;
         filter: grayscale(100%);
+      }
+      .footer{
+        padding: 8px;
+        margin-bottom: 30px;
+      }
+      .footer-description{
+        font-size: 0.75rem;
       }
     
   }
